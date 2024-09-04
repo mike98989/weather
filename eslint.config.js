@@ -18,6 +18,9 @@ export default tseslint.config(
       'react-refresh': reactRefresh,
     },
     rules: {
+      'tailwindcss/no-custom-classname': 'off',
+      '@typescript-eslint/explicit-function-return-type': 'off',
+      'react/prop-types': 'off',
       ...reactHooks.configs.recommended.rules,
       'react-refresh/only-export-components': [
         'warn',
