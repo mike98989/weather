@@ -1,6 +1,7 @@
+import React from "react";
 import { render, screen, fireEvent } from "@testing-library/react";
 import ButtonComponent from "./ButtonComponent";
-import { describe, test, expect, it } from "vitest";
+import { describe, expect, it } from "vitest";
 
 // Tests
 describe("Renders main button correctly", async () => {
