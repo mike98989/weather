@@ -10,6 +10,7 @@ function App() {
       <div className="w-2/5  mx-auto mt-10">
         <form className="bg-white shadow-md rounded px-8 pt-6 pb-8 mb-4">
           <div className="mb-4">
+            <h1>This is a new Header</h1>
             <div className="font-bold text-2xl mb-2">Weather App</div>
             <label
               className="block text-gray-700 text-sm font-bold mb-2"
