@@ -9,7 +9,18 @@ function App() {
       <div className="w-2/5  mx-auto mt-10">
         <form className="bg-white shadow-md rounded px-8 pt-6 pb-8 mb-4">
           <div className="mb-4">
-            <div className="font-bold text-2xl mb-2">Weather Application</div>
+            <ButtonComponent
+              buttonText="Sign In"
+              className="bg-blue-500 hover:bg-blue-700 text-white py-2 px-4 rounded"
+            />
+            <a
+              className="inline-block align-baseline font-bold text-sm text-blue-500 hover:text-blue-800"
+              href="#"
+            >
+              Another Button
+            </a>
+
+            <div className="font-bold text-2xl mb-2">Weather App</div>
             <label
               className="block text-gray-700 text-sm font-bold mb-2"
               htmlFor="username"
